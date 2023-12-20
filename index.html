@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Aqui começa a home -->
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+            <div class="logo"></div>
+            <div class="desktop-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#service">Serviços</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu" onclick="myFuction()">
+                <i class="fa-solid fa-bars"></i>
+                <ul id="myLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#service">Serviços</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+
+            </div>
+            <div class="call">
+                <div class="left">
+                    <img src="imagem/prato1-removebg.png" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="color-laranja text-gd">Restaurante</h1>
+                    <p class="color-laranja text-gd">Food & Drink</p>
+                    <h2 class="color-cinza-1 text-md">Experimente a melhor comida da região</h2>
+                    <p class="text-pq">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic nisi enim a non sunt, necessitatibus aliquid facere molestiae sint error quia quod
+                        , dicta quos excepturi temporibus consequatur dolorum. Tempora?</p>
+                        <a href="#menu"><button>Ver Menu</button></a>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top">
+            ⇪
+        </button>
+    </header>
+
+    <!-- AQUI COMEÇA O ABOUT -->
+    <section class="max-width bg" id="about">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class="text-title color-laranja">Sobre Nós</span>
+                    <h2 class="text-md color-cinza-1">Nós cozinhamos a comida mais saborosa da cidade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos amet molestiae nihil, voluptas itaque esse rerum vitae distinctio a reicien
+                        dis dolor et eligendi, fugiat repellat deserunt quibusdam aspernatur praesentium temporibus.</p>
+                        <button>Saiba Mais!</button>
+                </div>
+                <div class="right">
+                    <img src="imagem/risoto1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aqui começa o service -->
+
+    <section class="max-width bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-laranja">Ofertas</span>
+                    <h2 class="text-md color-cinza-1">Nossos Serviços</h2>
+                </div>
+                <div class="down">
+                  <div class="box">
+                    <i class="fa fa-cutlery text-gd color-laranja"></i>
+                    <h2>A melhor comida</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laborum voluptas quisquam impedit quae, aliquid ut.</p>
+                  </div>
+                  <div class="box">
+                    <i class="fa-solid fa-pizza-slice text-gd color-laranja"></i>
+                    <h2>Preparo Rápido</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laborum voluptas quisquam impedit quae, aliquid ut.</p>
+                  </div>
+                  <div class="box">
+                    <i class="fa fa-motorcycle text-gd color-laranja"></i>
+                    <h2>Entrega</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laborum voluptas quisquam impedit quae, aliquid ut.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aqui começa o menu -->
+
+    <section class="max-width bg" id="menu">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title color-laranja">Prato do Dia</span>
+                    <h2 class="text-md color-cinza-1">Cardápio do Dia</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <img src="imagem/comida02.jpeg" alt="">
+                        <h2 class="color-laranja">Bife à Parmegiana</h2>
+                        <p>Delicioso Bife</p>
+                        <p>R$16,90</p>
+                    </div>
+                    <div class="box">
+                        <img src="imagem/comida03.jpeg" alt="">
+                        <h2 class="color-laranja">Salmão Grelhado</h2>
+                        <p>Comida Fitness</p>
+                        <p>R$26,90</p>
+                    </div>
+                    <div class="box">
+                        <img src="imagem/comida01.png" alt="">
+                        <h2 class="color-laranja">Clássico</h2>
+                        <p>Clássico Saboroso</p>
+                        <p>R$19,90</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contato -->
+    <section class="max-width bg" id="contact">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                <span class="text-title color-laranja">App</span>
+                <h2 class="text-md color-cinza-1">O Aplicativo está disponivel</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi impedit placeat omnis provident,
+                     labore magni quae modi veritatis? Aliquid excepturi quia soluta officiis molestias ut laborum, iure tenetur dignissimos.</p>
+                     <div class="info">
+                        <img src="imagem/apple.jpeg" alt="">
+                        <img src="imagem/android.jpeg" alt="">
+                     </div>
+                    </div>
+                    <div class="right">
+                        <img src="imagem/Design_sem_nome__3_-removebg-preview.png" alt="">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <img src="imagem/logo-removebg-preview.png" alt="">
+            <p class="text-pq">Copyright 2024 <span class="color-laranja">Dreamix</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: +55 7733-3423</p>
+        </div>
+    </footer>
+
+    <script>
+        var btn = document.querySelector("#back-to-top");
+
+        btn.addEventListener("click", function(){
+            window.scrollTo(0, 0);
+        })
+
+        // Menu Mobile
+
+        function myFuction(){
+            var x = document.getElementById("myLinks")
+            if (x.style.display === "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
